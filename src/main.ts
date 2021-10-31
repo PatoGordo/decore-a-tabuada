@@ -10,7 +10,6 @@ if (typeof window !== "undefined") {
 }
 
 const pinia = createPinia();
-
 const app = createApp(App);
 
 app.use(i18n);

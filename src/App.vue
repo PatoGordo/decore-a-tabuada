@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import AppNavbar from "./components/appNavbar.vue";
+// import AppNavbar from "./components/appNavbar.vue";
+import "@/services/firebase";
 </script>
 
 <template>
-  <app-navbar />
+  <!-- <app-navbar /> -->
   <router-view />
 </template>
 
