@@ -4,7 +4,7 @@ function getItemName(name: string, version = "1.0") {
   return `APP::${name}>>v${version}`;
 }
 
-export const preferences = defineStore("preferences", {
+export const usePreferencesStore = defineStore("preferences", {
   state() {
     const theme = localStorage.getItem(getItemName("theme"));
     const lang = localStorage.getItem(getItemName("lang"));

@@ -1,11 +1,11 @@
 <script setup lang="ts">
-// import AppNavbar from "./components/appNavbar.vue";
+import AppModal from "./components/appModal.vue";
 import "@/services/firebase";
 </script>
 
 <template>
-  <!-- <app-navbar /> -->
   <router-view />
+  <app-modal />
 </template>
 
 <style>
