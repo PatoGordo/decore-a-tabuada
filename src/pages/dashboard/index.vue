@@ -8,7 +8,7 @@ const router = useRouter();
 
 async function handleSignOut() {
   await authStore.signOut();
-  router.push('/signin')
+  router.push("/signin");
 }
 
 onBeforeMount(async () => {
